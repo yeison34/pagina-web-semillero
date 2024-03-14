@@ -50,13 +50,14 @@ function Carousel() {
                   */}
                   <nav aria-label="breadcrumb animated fadeInRight">
                     <ol class="breadcrumb justify-content-center mb-0 animated fadeInRight">
-                      <Link to="/">
+                      {/*<Link to="/">
                         <li
                           class="breadcrumb-item text-black"
                           aria-current="page">
                           Home
                         </li>
                       </Link>
+                */}
                     </ol>
                   </nav>
                 </div>
@@ -70,13 +71,14 @@ function Carousel() {
                   style={{ position: "absolute", bottom: 0 }}>
                   <nav aria-label="breadcrumb animated fadeInRight">
                     <ol class="breadcrumb justify-content-center mb-0 animated fadeInRight">
-                      <Link to="/">
+                      {/* <Link to="/">
                         <li
                           class="breadcrumb-item text-white"
                           aria-current="page">
                           Home
                         </li>
                       </Link>
+                */}
                     </ol>
                   </nav>
                 </div>

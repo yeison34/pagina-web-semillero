@@ -82,7 +82,7 @@ function Participantes() {
               padding: "auto",
             }}>
             <div class="title-area" style={{ textAlign: "center" }}>
-              <h2>Semilleristas</h2>
+              <h2 style={{ fontFamily: "Acme, sans-serif" }}>Semilleristas</h2>
               <div class="separator separator-success">✻</div>
             </div>
 
@@ -117,11 +117,30 @@ function Participantes() {
                     </div>
                     <div class="description">
                       <br></br>
-                      <h5 class="title">Edgar Eduardo Chaux Flóres</h5>
-                      <p class="small-text">
+                      <h5
+                        class="title"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Edgar Eduardo Chaux Flóres
+                      </h5>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
                         Estudiante - Ingenieria de Sistemas
                       </p>
-                      <p class="small-text">Semestre 4</p>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Semestre 4
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -141,11 +160,30 @@ function Participantes() {
                     </div>
                     <div class="description">
                       <br></br>
-                      <h5 class="title">Maria Alejandra Ipiales Narvaez</h5>
-                      <p class="small-text">
+                      <h5
+                        class="title"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Maria Alejandra Ipiales Narvaez
+                      </h5>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
                         Estudiante - Ingenieria de Sistemas
                       </p>
-                      <p class="small-text">Semestre 8</p>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Semestre 8
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -165,11 +203,30 @@ function Participantes() {
                     </div>
                     <div class="description">
                       <br></br>
-                      <h5 class="title">Jhon Jairo Zambrano Yela</h5>
-                      <p class="small-text">
+                      <h5
+                        class="title"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Jhon Jairo Zambrano Yela
+                      </h5>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
                         Estudiante - Ingenieria de Sistemas
                       </p>
-                      <p class="small-text">Semestre 10</p>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Semestre 10
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -189,11 +246,30 @@ function Participantes() {
                     </div>
                     <div class="description">
                       <br></br>
-                      <h5 class="title">Daniela Jasmin Toro Dominguez</h5>
-                      <p class="small-text">
+                      <h5
+                        class="title"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Daniela Jasmin Toro Dominguez
+                      </h5>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
                         Estudiante - Ingenieria de Sistemas
                       </p>
-                      <p class="small-text">Semestre 10</p>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Semestre 10
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -213,11 +289,30 @@ function Participantes() {
                     </div>
                     <div class="description">
                       <br></br>
-                      <h5 class="title">Luis Carlos Rosero Taimbud</h5>
-                      <p class="small-text">
+                      <h5
+                        class="title"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Luis Carlos Rosero Taimbud
+                      </h5>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
                         Estudiante - Ingenieria de Sistemas
                       </p>
-                      <p class="small-text">Semestre 10</p>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Semestre 10
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -237,11 +332,30 @@ function Participantes() {
                     </div>
                     <div class="description">
                       <br></br>
-                      <h5 class="title">Yasson Brayan Perenguez Paz</h5>
-                      <p class="small-text">
+                      <h5
+                        class="title"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Yasson Brayan Perenguez Paz
+                      </h5>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
                         Estudiante - Ingenieria de Sistemas
                       </p>
-                      <p class="small-text">Semestre 10</p>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Semestre 10
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -261,9 +375,30 @@ function Participantes() {
                     </div>
                     <div class="description">
                       <br></br>
-                      <h5 class="title">Shirley Meliza Gómez</h5>
-                      <p class="small-text">Egresada</p>
-                      <p class="small-text">Ingeniera de Sistemas</p>
+                      <h5
+                        class="title"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Shirley Meliza Gómez
+                      </h5>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Egresada
+                      </p>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Ingeniera de Sistemas
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -283,9 +418,30 @@ function Participantes() {
                     </div>
                     <div class="description">
                       <br></br>
-                      <h5 class="title">Nancy Milena Cuastumal Quenguan</h5>
-                      <p class="small-text">Egresada</p>
-                      <p class="small-text">Ingeniera de Sistemas</p>
+                      <h5
+                        class="title"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Nancy Milena Cuastumal Quenguan
+                      </h5>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Egresada
+                      </p>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Ingeniera de Sistemas
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -305,9 +461,30 @@ function Participantes() {
                     </div>
                     <div class="description">
                       <br></br>
-                      <h5 class="title">Ingrid Catheryn Cabrera</h5>
-                      <p class="small-text">Egresada</p>
-                      <p class="small-text">Ingeniera de Sistemas</p>
+                      <h5
+                        class="title"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Ingrid Catheryn Cabrera
+                      </h5>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Egresada
+                      </p>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Ingeniera de Sistemas
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -327,9 +504,30 @@ function Participantes() {
                     </div>
                     <div class="description">
                       <br></br>
-                      <h5 class="title">Silvia Rocío Fuertes Paspur</h5>
-                      <p class="small-text">Egresada</p>
-                      <p class="small-text">Ingeniera de Sistemas</p>
+                      <h5
+                        class="title"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Silvia Rocío Fuertes Paspur
+                      </h5>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Egresada
+                      </p>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Ingeniera de Sistemas
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -349,9 +547,30 @@ function Participantes() {
                     </div>
                     <div class="description">
                       <br></br>
-                      <h5 class="title">Yuli Esmeralda Sinza Díaz</h5>
-                      <p class="small-text">Egresada</p>
-                      <p class="small-text">Ingeniera de Sistemas</p>
+                      <h5
+                        class="title"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Yuli Esmeralda Sinza Díaz
+                      </h5>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Egresada
+                      </p>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Ingeniera de Sistemas
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -371,9 +590,30 @@ function Participantes() {
                     </div>
                     <div class="description">
                       <br></br>
-                      <h5 class="title">Jennyfer Estefanía Oliva Caipe</h5>
-                      <p class="small-text">Egresada</p>
-                      <p class="small-text">Ingeniera de Sistemas</p>
+                      <h5
+                        class="title"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Jennyfer Estefanía Oliva Caipe
+                      </h5>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Egresada
+                      </p>
+                      <p
+                        class="small-text"
+                        style={{
+                          textAlign: "justify",
+                          fontFamily: "Questrial, sans-serif",
+                        }}>
+                        Ingeniera de Sistemas
+                      </p>
                     </div>
                   </div>
                 </div>

@@ -58,14 +58,20 @@ function Lineasinvestigacion() {
       <br></br>
       <div className="wow fadeIn" data-wow-delay=".3s">
         <div class="title-area" style={{ textAlign: "center" }}>
-          <h2>Lineas de Investigación</h2>
+          <h2 style={{ fontFamily: "Acme, sans-serif" }}>
+            Lineas de Investigación
+          </h2>
           <div class="separator separator-success">✻</div>
         </div>
         <div style={{ padding: "10px" }}>
           <div className="row">
             <div className="col-sm-3"></div>
             <div className="col-sm-6">
-              <p style={{ textAlign: "center" }}>
+              <p
+                style={{
+                  textAlign: "center",
+                  fontFamily: "Questrial, sans-serif",
+                }}>
                 Las líneas de investigación del Semillero, se definen teniendo
                 en cuenta las disciplinas propuestas por ACM, IEEE-CS y AIS en
                 el documento Currículo de la Computación del año 2005.
@@ -83,11 +89,14 @@ function Lineasinvestigacion() {
             </div>
             <br></br>
             <div style={{ display: "flex", justifyContent: "center" }}>
-              <p>Ingenieria de Software</p>
+              <p style={{ fontFamily: "Acme, sans-serif" }}>
+                Ingenieria de Software
+              </p>
             </div>
             <br></br>
             <div style={{ display: "flex", justifyContent: "center" }}>
               <button
+                style={{ width: "100px", background: "green", color: "white" }}
                 className="btn btn-success"
                 onClick={() =>
                   abrirModal(
@@ -106,11 +115,14 @@ function Lineasinvestigacion() {
             </div>
             <br></br>
             <div style={{ display: "flex", justifyContent: "center" }}>
-              <p>Ciencias de la Computación</p>
+              <p style={{ fontFamily: "Acme, sans-serif" }}>
+                Ciencias de la Computación
+              </p>
             </div>
             <br></br>
             <div style={{ display: "flex", justifyContent: "center" }}>
               <button
+                style={{ width: "100px", background: "green", color: "white" }}
                 className="btn btn-success"
                 onClick={() =>
                   abrirModal(
@@ -129,11 +141,14 @@ function Lineasinvestigacion() {
             </div>
             <br></br>
             <div style={{ display: "flex", justifyContent: "center" }}>
-              <p>Sistemas de Información</p>
+              <p style={{ fontFamily: "Acme, sans-serif" }}>
+                Sistemas de Información
+              </p>
             </div>
             <br></br>
             <div style={{ display: "flex", justifyContent: "center" }}>
               <button
+                style={{ width: "100px", background: "green", color: "white" }}
                 className="btn btn-success"
                 onClick={() =>
                   abrirModal(
@@ -153,11 +168,14 @@ function Lineasinvestigacion() {
             </div>
             <br></br>
             <div style={{ display: "flex", justifyContent: "center" }}>
-              <p>Tecnologías de la Información</p>
+              <p style={{ fontFamily: "Acme, sans-serif" }}>
+                Tecnologías de la Información
+              </p>
             </div>
             <br></br>
             <div style={{ display: "flex", justifyContent: "center" }}>
               <button
+                style={{ width: "100px", background: "green", color: "white" }}
                 className="btn btn-success"
                 onClick={() =>
                   abrirModal(

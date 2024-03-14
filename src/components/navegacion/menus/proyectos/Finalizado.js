@@ -66,7 +66,7 @@ function Finalizado() {
 
       <div className="container pt-5">
         <div class="title-area" style={{ textAlign: "center" }}>
-          <h3>Finalizados</h3>
+          <h3 style={{ fontFamily: "Acme, sans-serif" }}>Finalizados</h3>
           <div class="separator separator-success">✻</div>
         </div>
         <br></br>
@@ -108,7 +108,11 @@ function Finalizado() {
             data-wow-delay=".5s">
             <h4
               className="mb-4"
-              style={{ textAlign: "justify", fontWeight: "bold" }}>
+              style={{
+                textAlign: "justify",
+                fontWeight: "bold",
+                fontFamily: "Questrial, sans-serif",
+              }}>
               Análisis del uso y aplicación de las herramientas de la Web 2.0
               tanto en docentes como en estudiantes del programa de Ingeniería
               de Sistemas de la Universidad de Nariño, Sede Ipiales durante el
@@ -117,7 +121,7 @@ function Finalizado() {
           </div>
           <center>
             <button
-              style={{ width: "100px" }}
+              style={{ width: "100px", background: "green", color: "white" }}
               className="btn btn-success"
               onClick={() =>
                 abrirModal(
@@ -189,7 +193,11 @@ function Finalizado() {
             data-wow-delay=".5s">
             <h4
               className="mb-4"
-              style={{ textAlign: "justify", fontWeight: "bold" }}>
+              style={{
+                textAlign: "justify",
+                fontWeight: "bold",
+                fontFamily: "Questrial, sans-serif",
+              }}>
               Análisis del aporte de las asignaturas de programación de
               Ingeniería de Sistemas de la Universidad de Nariño en programación
               competitiva
@@ -197,7 +205,7 @@ function Finalizado() {
           </div>
           <center>
             <button
-              style={{ width: "100px" }}
+              style={{ width: "100px", background: "green", color: "white" }}
               className="btn btn-success"
               onClick={() =>
                 abrirModal(
@@ -262,7 +270,11 @@ function Finalizado() {
             }}>
             <h4
               className="mb-4"
-              style={{ textAlign: "justify", fontWeight: "bold" }}>
+              style={{
+                textAlign: "justify",
+                fontWeight: "bold",
+                fontFamily: "Questrial, sans-serif",
+              }}>
               Estrategia didáctica mediada con TIC para incentivar los procesos
               de lectura en la biblioteca pública rural “Juan Lorenzo Quenguan"
               del municipio de Ipiales.
@@ -270,7 +282,7 @@ function Finalizado() {
           </div>
           <center>
             <button
-              style={{ width: "100px" }}
+              style={{ width: "100px", background: "green", color: "white" }}
               className="btn btn-success"
               onClick={() =>
                 abrirModal(

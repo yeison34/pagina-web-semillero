@@ -57,7 +57,7 @@ function Coordinacion() {
           <div
             class="title-area"
             style={{ textAlign: "center", color: "white" }}>
-            <h2>Coordinación</h2>
+            <h2 style={{ fontFamily: "Acme, sans-serif" }}>Coordinación</h2>
             <div class="separator separator-success">✻</div>
           </div>
           <div>
@@ -84,9 +84,18 @@ function Coordinacion() {
             color: "white",
           }}>
           <center>
-            <h3>Sandra Marcela Guerrero Calvache</h3>
+            <h3
+              style={{
+                fontFamily: "Questrial, sans-serif",
+              }}>
+              Sandra Marcela Guerrero Calvache
+            </h3>
           </center>
-          <p style={{ textAlign: "justify" }}>
+          <p
+            style={{
+              textAlign: "justify",
+              fontFamily: "Questrial, sans-serif",
+            }}>
             Ingeniera de Sistemas de la Universidad de Nariño, egresada
             distinguida y grado de honor,Magister en Ingeniería de Sistemas y
             Computación de la Universidad de Nariño. Coordinadora del Semillero

@@ -35,7 +35,7 @@ function BarraNavegacion() {
                 <a to="#">
                   <BiLogoGmail className="me-2 text-secondary"></BiLogoGmail>
                 </a>
-                greenclouds@gmail.com
+                greenclouds@udenar.edu.co
               </small>
             </div>
             <div id="note" className="text-secondary d-none d-xl-flex">
@@ -79,7 +79,7 @@ function BarraNavegacion() {
                 <Link
                   to="/"
                   className="nav-item nav-link active text-secondary">
-                  Home
+                  Green Clouds
                 </Link>
                 <div className="nav-item dropdown">
                   <a
@@ -120,6 +120,7 @@ function BarraNavegacion() {
                     </Link>
                   </div>
                 </div>
+                {/*
                 <div className="nav-item dropdown">
                   <Link
                     to="#"
@@ -136,6 +137,7 @@ function BarraNavegacion() {
                     </Link>
                   </div>
                 </div>
+          
                 <div className="nav-item dropdown">
                   <Link
                     to="#"
@@ -161,6 +163,7 @@ function BarraNavegacion() {
                     </Link>
                   </div>
                 </div>
+          */}
               </div>
             </div>
           </nav>
@@ -181,9 +184,8 @@ function BarraNavegacion() {
                 </h1>
               </Link>
               <p className="mt-4 text-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-                facere delectus qui placeat inventore consectetur repellendus
-                optio debitis.
+                Semillero de Investigación del Programa de Ingeniería de
+                Sistemas. Facultad de Ingeniería, Universidad de Nariño
               </p>
               <div className="d-flex hightech-link">
                 <a
@@ -208,6 +210,7 @@ function BarraNavegacion() {
                   <i className="fas fa-angle-right text-secondary me-2"></i>
                   Participaciones
                 </Link>
+                {/*
                 <Link to="/equipo" className="mb-2 text-white">
                   <i className="fas fa-angle-right text-secondary me-2"></i>
                   Equipo
@@ -216,6 +219,7 @@ function BarraNavegacion() {
                   <i className="fas fa-angle-right text-secondary me-2"></i>
                   Sobre Nosotros
                 </Link>
+        */}
               </div>
             </div>
 
@@ -233,14 +237,14 @@ function BarraNavegacion() {
                 <a
                   to="#"
                   className="py-3 text-light border-bottom border-primary">
-                  <i className="fas fa-phone-alt text-secondary me-2"></i> +123
-                  456 7890
+                  <i className="fas fa-phone-alt text-secondary me-2"></i> +57
+                  310 527 37 27
                 </a>
                 <a
                   to="#"
                   className="py-3 text-light border-bottom border-primary">
                   <i className="fas fa-envelope text-secondary me-2"></i>{" "}
-                  greenclouds@gmail.com
+                  greenclouds@udenar.edu.co
                 </a>
               </div>
             </div>

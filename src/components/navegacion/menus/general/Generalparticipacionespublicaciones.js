@@ -65,7 +65,7 @@ function Generalparticipacionespublicaciones() {
             }}>
             <h6
               class="display-2 text-white mb-4 animated slideInDown"
-              style={{ paddingLeft: "110px" }}>
+              style={{ paddingLeft: "110px", fontFamily: "Acme, sans-serif" }}>
               Publicaciones
             </h6>
             <div
@@ -78,15 +78,23 @@ function Generalparticipacionespublicaciones() {
               }}>
               <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                  <li class="breadcrumb-item">
+                  <li
+                    class="breadcrumb-item"
+                    style={{ fontFamily: "Acme, sans-serif" }}>
                     <Link to="/" style={{ color: "white" }}>
-                      Home
+                      Green Clouds
                     </Link>
                   </li>
-                  <li class="breadcrumb-item" aria-current="page">
+                  <li
+                    class="breadcrumb-item"
+                    aria-current="page"
+                    style={{ fontFamily: "Acme, sans-serif" }}>
                     Eventos
                   </li>
-                  <li class="breadcrumb-item" aria-current="page">
+                  <li
+                    class="breadcrumb-item"
+                    aria-current="page"
+                    style={{ fontFamily: "Acme, sans-serif" }}>
                     Publicaciones
                   </li>
                 </ol>

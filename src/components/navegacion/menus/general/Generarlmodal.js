@@ -45,32 +45,41 @@ const ModalDef = ({ titulo, body, imagen, onClose, onOpen }) => {
       isOpen={onOpen}
       onRequestClose={onClose}
       contentLabel="">
-      <Card>
-        <CardHeader>
-          <div style={{ position: "flex", justifyContent: "space-between" }}>
-            <div>{titulo}</div>
-            <div
-              style={{ position: "absolute", top: 0, right: 0, margin: "5px" }}>
-              <p onClick={onClose} style={{ height: "10px", width: "10px" }}>
-                X
-              </p>
-            </div>
+      <CardHeader>
+        <div style={{ position: "flex", justifyContent: "space-between" }}>
+          <div
+            style={{
+              fontFamily: "Questrial, sans-serif",
+            }}>
+            {titulo}
           </div>
-        </CardHeader>
-        <CardBody>
-          <div>
-            <div style={{ display: "flex", justifyContent: "center" }}>
-              <img
-                src={img}
-                style={{ height: "200px", width: "200px", ...verImg }}
-                alt="Imagen Modal"
-              />
-            </div>
-            <br></br>
-            <p style={{ textAlign: "justify" }}>{body}</p>
+          <div
+            style={{ position: "absolute", top: 0, right: 0, margin: "5px" }}>
+            <p onClick={onClose} style={{ height: "10px", width: "10px" }}>
+              X
+            </p>
           </div>
-        </CardBody>
-      </Card>
+        </div>
+      </CardHeader>
+      <CardBody>
+        <div>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <img
+              src={img}
+              style={{ height: "200px", width: "200px", ...verImg }}
+              alt="Imagen Modal"
+            />
+          </div>
+          <br></br>
+          <p
+            style={{
+              textAlign: "justify",
+              fontFamily: "Questrial, sans-serif",
+            }}>
+            {body}
+          </p>
+        </div>
+      </CardBody>
     </Modal>
   );
 };

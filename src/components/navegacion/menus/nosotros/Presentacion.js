@@ -33,7 +33,8 @@ function Presentacion() {
     <>
       <div className="wow fadeIn" data-wow-delay=".3s">
         <div class="title-area" style={{ textAlign: "center" }}>
-          <h2>Presentación</h2>
+          <h2 style={{ fontFamily: "Acme, sans-serif" }}>Presentación</h2>
+
           <div class="separator separator-success">✻</div>
         </div>
         <div
@@ -47,7 +48,10 @@ function Presentacion() {
               padding: "10px",
             }}
             className="col-sm-6">
-            <p class="description" style={{ color: "black" }} align="center">
+            <p
+              class="description"
+              style={{ color: "black", fontFamily: "Questrial, sans-serif" }}
+              align="center">
               GREEN CLOUDS: que en su traducción significa Nubes Verdes. <br />
               Un Semillero que nace a principios del año 2020 y que pertenece al
               programa de Ingenieria de Sistemas de la Universidad de Nariño,
@@ -65,8 +69,18 @@ function Presentacion() {
               <div class="icon text-success">
                 <MdAirlineStops />
               </div>
-              <h3>Misión</h3>
-              <p class="description" align="justify">
+              <h3
+                style={{
+                  fontFamily: "Acme, sans-serif",
+                }}>
+                Misión
+              </h3>
+              <p
+                class="description"
+                align="justify"
+                style={{
+                  fontFamily: "Questrial, sans-serif",
+                }}>
                 GREEN CLOUDS es un semillero fundamentado en las Ciencias de la
                 Computación y la Ingeniería de Sistemas que busca fomentar la
                 cultura investigativa, trabajo en equipo, innovación y
@@ -82,8 +96,13 @@ function Presentacion() {
               <div class="icon text-success">
                 <SlBookOpen />
               </div>
-              <h3>Visión</h3>
-              <p class="description" align="justify">
+              <h3 style={{ fontFamily: "Acme, sans-serif" }}>Visión</h3>
+              <p
+                class="description"
+                align="justify"
+                style={{
+                  fontFamily: "Questrial, sans-serif",
+                }}>
                 En el 2025 seremos reconocidos por la comunidad académica a
                 nivel regional por ser un semillero que fomenta fuertes
                 capacidades investigativas en sus integrantes incorporando
@@ -98,8 +117,13 @@ function Presentacion() {
               <div class="icon text-success">
                 <FaMusic />
               </div>
-              <h3>Valores</h3>
-              <p class="description" align="justify">
+              <h3 style={{ fontFamily: "Acme, sans-serif" }}>Valores</h3>
+              <p
+                class="description"
+                align="justify"
+                style={{
+                  fontFamily: "Questrial, sans-serif",
+                }}>
                 El Semillero de Investigación trabaja colectivamente por
                 alcanzar sus objetivos, busca a través del estudio y la
                 investigación ayudar a solventar necesidades de la sociedad y se
@@ -129,7 +153,9 @@ function Presentacion() {
             padding: "auto",
           }}>
           <div class="title-area" style={{ textAlign: "center" }}>
-            <h2 style={{ color: "white" }}>Objetivos</h2>
+            <h2 style={{ color: "white", fontFamily: "Acme, sans-serif" }}>
+              Objetivos
+            </h2>
             <div style={{ color: "white" }} class="separator separator-success">
               ✻
             </div>
@@ -137,7 +163,12 @@ function Presentacion() {
               <div className="col-sm-3"></div>
               <div className="col-sm-6">
                 <center>
-                  <p style={{ textAlign: "justify", color: "white" }}>
+                  <p
+                    style={{
+                      textAlign: "justify",
+                      color: "white",
+                      fontFamily: "Questrial, sans-serif",
+                    }}>
                     Implementar procesos investigativos encaminados al
                     emprendimiento e innovación en el área de las Ciencias de la
                     Computación y la Ingeniería de Sistemas que conduzcan a la
@@ -168,10 +199,17 @@ function Presentacion() {
                 <br></br>
                 <br></br>
                 <p style={{ textAlign: "center", fontWeight: "bold" }}>
-                  <h4>Objetivo Especifico 1</h4>
+                  <h4 style={{ fontFamily: "Acme, sans-serif" }}>
+                    Objetivo Especifico 1
+                  </h4>
                 </p>
                 <br></br>
-                <p style={{ textAlign: "justify", padding: "10px" }}>
+                <p
+                  style={{
+                    textAlign: "justify",
+                    padding: "10px",
+                    fontFamily: "Questrial, sans-serif",
+                  }}>
                   Introducir a los integrantes en la formación en investigación,
                   emprendimiento, innovación y desarrollo tecnológico, como ejes
                   fundamentales y de aplicación en cualquier área del
@@ -195,10 +233,17 @@ function Presentacion() {
                 <br></br>
                 <br></br>
                 <p style={{ textAlign: "center", fontWeight: "bold" }}>
-                  <h4>Objetivo Especifico 2</h4>
+                  <h4 style={{ fontFamily: "Acme, sans-serif" }}>
+                    Objetivo Especifico 2
+                  </h4>
                 </p>
                 <br></br>
-                <p style={{ textAlign: "justify", padding: "10px" }}>
+                <p
+                  style={{
+                    textAlign: "justify",
+                    padding: "10px",
+                    fontFamily: "Questrial, sans-serif",
+                  }}>
                   Consolidar proyectos de investigación orientados a las
                   diferentes problemáticas que presenta la comunidad buscando el
                   aprovechamiento de las nuevas tecnologías.
@@ -221,10 +266,17 @@ function Presentacion() {
                 <br></br>
                 <br></br>
                 <p style={{ textAlign: "center", fontWeight: "bold" }}>
-                  <h4>Objetivo Especifico 3</h4>
+                  <h4 style={{ fontFamily: "Acme, sans-serif" }}>
+                    Objetivo Especifico 3
+                  </h4>
                 </p>
                 <br></br>
-                <p style={{ textAlign: "justify", padding: "10px" }}>
+                <p
+                  style={{
+                    textAlign: "justify",
+                    padding: "10px",
+                    fontFamily: "Questrial, sans-serif",
+                  }}>
                   Fomentar el trabajo en equipo y la participación de los
                   integrantes para el desarrollo de diversos proyectos bajo las
                   líneas de investigación establecidas.

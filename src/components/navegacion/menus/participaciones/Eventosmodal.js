@@ -59,50 +59,47 @@ const EventosModel = ({ titulo, onClose, onOpen, imagen }) => {
       isOpen={onOpen}
       onRequestClose={onClose}
       contentLabel="">
-      <Card>
-        <CardHeader>
-          <div style={{ position: "flex", justifyContent: "space-between" }}>
-            <div>{titulo}</div>
-            <div
-              style={{ position: "absolute", top: 0, right: 0, margin: "5px" }}>
-              <p onClick={onClose} style={{ height: "10px", width: "10px" }}>
-                X
-              </p>
-            </div>
+      <CardHeader>
+        <div style={{ position: "flex", justifyContent: "space-between" }}>
+          <div
+            style={{ position: "absolute", top: 0, right: 0, margin: "5px" }}>
+            <p onClick={onClose} style={{ height: "10px", width: "10px" }}>
+              X
+            </p>
           </div>
-        </CardHeader>
-        <CardBody>
-          <div className="box">
-            <Carousel useKeyboardArrows={true}>
-              {imagen == 1
-                ? institucionales.map((URL, index) => (
-                    <div className="slide">
-                      <img alt="sample_file" src={URL} key={index} />
-                    </div>
-                  ))
-                : imagen == 2
-                ? nacionales.map((URL, index) => (
-                    <div className="slide">
-                      <img alt="sample_file" src={URL} key={index} />
-                    </div>
-                  ))
-                : imagen == 3
-                ? departamentales.map((URL, index) => (
-                    <div className="slide">
-                      <img alt="sample_file" src={URL} key={index} />
-                    </div>
-                  ))
-                : imagen == 4
-                ? cacied.map((URL, index) => (
-                    <div className="slide">
-                      <img alt="sample_file" src={URL} key={index} />
-                    </div>
-                  ))
-                : ""}
-            </Carousel>
-          </div>
-        </CardBody>
-      </Card>
+        </div>
+      </CardHeader>
+      <CardBody>
+        <div className="box">
+          <Carousel useKeyboardArrows={true}>
+            {imagen == 1
+              ? institucionales.map((URL, index) => (
+                  <div className="slide">
+                    <img alt="sample_file" src={URL} key={index} />
+                  </div>
+                ))
+              : imagen == 2
+              ? nacionales.map((URL, index) => (
+                  <div className="slide">
+                    <img alt="sample_file" src={URL} key={index} />
+                  </div>
+                ))
+              : imagen == 3
+              ? departamentales.map((URL, index) => (
+                  <div className="slide">
+                    <img alt="sample_file" src={URL} key={index} />
+                  </div>
+                ))
+              : imagen == 4
+              ? cacied.map((URL, index) => (
+                  <div className="slide">
+                    <img alt="sample_file" src={URL} key={index} />
+                  </div>
+                ))
+              : ""}
+          </Carousel>
+        </div>
+      </CardBody>
     </Modal>
   );
 };

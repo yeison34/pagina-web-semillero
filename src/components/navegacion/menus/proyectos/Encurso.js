@@ -66,7 +66,7 @@ function Encurso() {
 
       <div className="container pt-5">
         <div class="title-area" style={{ textAlign: "center" }}>
-          <h3>En Curso</h3>
+          <h3 style={{ fontFamily: "Acme, sans-serif" }}>En Curso</h3>
           <div class="separator separator-success">✻</div>
         </div>
         <br></br>
@@ -109,7 +109,11 @@ function Encurso() {
             data-wow-delay=".5s">
             <h4
               className="mb-4"
-              style={{ textAlign: "justify", fontWeight: "bold" }}>
+              style={{
+                textAlign: "justify",
+                fontWeight: "bold",
+                fontFamily: "Questrial, sans-serif",
+              }}>
               STEAM MAKER - Aula científica para el aprendizaje en tecnología,
               ciencia e innovación en estudiantes de grado decimo de la
               Institución Educativa Francisco de Paula Santander del municipio
@@ -118,7 +122,7 @@ function Encurso() {
           </div>
           <center>
             <button
-              style={{ width: "100px" }}
+              style={{ width: "100px", background: "green", color: "white" }}
               className="btn btn-success"
               onClick={() =>
                 abrirModal(
@@ -195,7 +199,11 @@ function Encurso() {
             }}>
             <h4
               className="mb-4"
-              style={{ textAlign: "justify", fontWeight: "bold" }}>
+              style={{
+                textAlign: "justify",
+                fontWeight: "bold",
+                fontFamily: "Questrial, sans-serif",
+              }}>
               PLANTS GPT - Prototipo de aplicación con inteligencia artificial
               para la preservación de la identidad cultural de las comunidades
               Indígenas de Nariño en torno a la medicina naturista.
@@ -203,7 +211,7 @@ function Encurso() {
           </div>
           <center>
             <button
-              style={{ width: "100px" }}
+              style={{ width: "100px", background: "green", color: "white" }}
               className="btn btn-success"
               onClick={() =>
                 abrirModal(
@@ -268,14 +276,19 @@ function Encurso() {
             }}
             className="col-lg-7 col-md-6 col-sm-12 wow fadeIn"
             data-wow-delay=".5s">
-            <h4 className="mb-4" style={{ textAlign: "justify" }}>
+            <h4
+              className="mb-4"
+              style={{
+                textAlign: "justify",
+                fontFamily: "Questrial, sans-serif",
+              }}>
               SEGUJAZ: Propuesta TIC enfocada a los problemas de seguridad
               física presentados en la Universidad de Nariño sede Ipiales
             </h4>
           </div>
           <center>
             <button
-              style={{ width: "100px" }}
+              style={{ width: "100px", background: "green", color: "white" }}
               className="btn btn-success"
               onClick={() =>
                 abrirModal(
@@ -343,7 +356,11 @@ function Encurso() {
             data-wow-delay=".5s">
             <h4
               className="mb-4"
-              style={{ textAlign: "justify", fontWeight: "bold" }}>
+              style={{
+                textAlign: "justify",
+                fontWeight: "bold",
+                fontFamily: "Questrial, sans-serif",
+              }}>
               TRAVELPROV: Plataforma web para la difusión turística del
               municipio de Providencia, Nariño mediante herramientas y
               estrategias de marketing digital
@@ -351,7 +368,7 @@ function Encurso() {
           </div>
           <center>
             <button
-              style={{ width: "100px" }}
+              style={{ width: "100px", background: "green", color: "white" }}
               className="btn btn-success"
               onClick={() =>
                 abrirModal(

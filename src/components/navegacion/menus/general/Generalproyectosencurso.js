@@ -51,7 +51,9 @@ function Generalproyectosencurso() {
               right: "0%",
               bottom: "0%",
             }}>
-            <h6 class="display-2 text-white mb-4 animated slideInDown">
+            <h6
+              class="display-2 text-white mb-4 animated slideInDown"
+              style={{ fontFamily: "Acme, sans-serif" }}>
               Proyectos En Curso
             </h6>
             <div
@@ -60,19 +62,27 @@ function Generalproyectosencurso() {
                 width: "400px",
                 height: "400px",
                 color: "white",
-                marginLeft: "90px",
+                marginLeft: "50px",
               }}>
               <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                  <li class="breadcrumb-item">
+                  <li
+                    class="breadcrumb-item"
+                    style={{ fontFamily: "Acme, sans-serif" }}>
                     <Link to="/" style={{ color: "white" }}>
                       Home
                     </Link>
                   </li>
-                  <li class="breadcrumb-item" aria-current="page">
+                  <li
+                    class="breadcrumb-item"
+                    aria-current="page"
+                    style={{ fontFamily: "Acme, sans-serif" }}>
                     Proyectos
                   </li>
-                  <li class="breadcrumb-item" aria-current="page">
+                  <li
+                    class="breadcrumb-item"
+                    aria-current="page"
+                    style={{ fontFamily: "Acme, sans-serif" }}>
                     Proyectos - En Curso
                   </li>
                 </ol>

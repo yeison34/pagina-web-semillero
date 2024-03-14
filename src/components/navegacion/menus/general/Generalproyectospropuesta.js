@@ -35,6 +35,7 @@ import "../../../../js/main.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../../../css/style.css";
 import Encurso from "../proyectos/Encurso.js";
+
 function Generalproyectospropuesta() {
   return (
     <>
@@ -64,7 +65,7 @@ function Generalproyectospropuesta() {
             }}>
             <h6
               class="display-2 text-white mb-4 animated slideInDown"
-              style={{ paddingLeft: "110px" }}>
+              style={{ paddingLeft: "110px", fontFamily: "Acme, sans-serif" }}>
               Propuestas
             </h6>
             <div
@@ -77,15 +78,23 @@ function Generalproyectospropuesta() {
               }}>
               <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                  <li class="breadcrumb-item">
+                  <li
+                    class="breadcrumb-item"
+                    style={{ fontFamily: "Acme, sans-serif" }}>
                     <Link to="/" style={{ color: "white" }}>
                       Home
                     </Link>
                   </li>
-                  <li class="breadcrumb-item" aria-current="page">
+                  <li
+                    class="breadcrumb-item"
+                    aria-current="page"
+                    style={{ fontFamily: "Acme, sans-serif" }}>
                     Proyectos
                   </li>
-                  <li class="breadcrumb-item" aria-current="page">
+                  <li
+                    class="breadcrumb-item"
+                    aria-current="page"
+                    style={{ fontFamily: "Acme, sans-serif" }}>
                     Propuestas
                   </li>
                 </ol>

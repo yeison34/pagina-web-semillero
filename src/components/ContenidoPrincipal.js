@@ -19,7 +19,7 @@ function ContenidoPrincipal() {
       <Presentacion></Presentacion>
 
       <Lineasinvestigacion></Lineasinvestigacion>
-      <div class="title-area" style={{ textAlign: "center" }}>
+      {/*<div class="title-area" style={{ textAlign: "center" }}>
         <h2>Proyectos</h2>
         <div class="separator separator-success">✻</div>
       </div>
@@ -33,9 +33,11 @@ function ContenidoPrincipal() {
       <br></br>
       <Eventos></Eventos>
       <Publicaciones></Publicaciones>
+  */}
+      <br></br>
       <Coordinacion></Coordinacion>
       <br></br>
-      <br></br>
+
       <Participantes></Participantes>
     </>
   );
