@@ -15,7 +15,7 @@ function ContenidoPrincipal() {
       <Carousel></Carousel>
       <br></br>
       <br></br>
-
+      <h2>Hola mundo</h2>
       <Presentacion></Presentacion>
 
       <Lineasinvestigacion></Lineasinvestigacion>
